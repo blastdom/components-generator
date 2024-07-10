@@ -1,0 +1,40 @@
+{
+  "name": "@blastdom/components-generator",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "nx build"
+  },
+  "devDependencies": {
+    "@nx/eslint": "19.1.0",
+    "@nx/eslint-plugin": "19.1.0",
+    "@nx/rollup": "^19.1.0",
+    "@nx/web": "19.1.0",
+    "@nx/workspace": "19.1.0",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "eslint": "~8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "nx": "19.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "~5.4.5"
+  },
+  "nx": {
+    "includedScripts": []
+  },
+  "bin": "./cli.cjs.mjs",
+  "main": "./index.esm.js",
+  "typings": "./index.esm.d.ts",
+  "dependencies": {
+    "@framjet/common": "^0.1.2",
+    "@framjet/types": "^0.1.0",
+    "chalk": "^4.1.2",
+    "clipanion": "4.0.0-rc.3",
+    "cosmiconfig": "^9.0.0",
+    "type-plus": "8.0.0-beta.2"
+  }
+}
